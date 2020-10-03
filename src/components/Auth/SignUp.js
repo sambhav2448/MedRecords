@@ -1,6 +1,6 @@
 import { Col, Row } from "antd";
 import React from "react";
-import { Form, Input, Button, Checkbox } from "antd";
+import { Form, Input, Button } from "antd";
 
 import "./auth.css";
 import image from "../assets/circle2.png";
@@ -34,7 +34,7 @@ function SignIn() {
             onFinish={onFinish}
             onFinishFailed={onFinishFailed}
           >
-            <label for="#name">Full Name</label>
+            <label htmlFor="#name">Full Name</label>
 
             <Form.Item
               id="name"
@@ -49,7 +49,7 @@ function SignIn() {
               <Input placeholder="Please provide your name" />
             </Form.Item>
 
-            <label for="#field">You’re a specialist of</label>
+            <label htmlFor="#field">You’re a specialist of</label>
 
             <Form.Item
               id="field"
@@ -63,7 +63,7 @@ function SignIn() {
             >
               <Input placeholder="Please provide your hospital issued email" />
             </Form.Item>
-            <label for="#reg">Registration id</label>
+            <label htmlFor="#reg">Registration id</label>
 
             <Form.Item
               id="reg"
@@ -77,7 +77,7 @@ function SignIn() {
             >
               <Input placeholder="Please provide your hospital issued email" />
             </Form.Item>
-            <label for="#user">Email id</label>
+            <label htmlFor="#user">Email id</label>
 
             <Form.Item
               id="user"
@@ -92,7 +92,7 @@ function SignIn() {
               <Input placeholder="Please provide your hospital issued email" />
             </Form.Item>
 
-            <label for="#pass">Password</label>
+            <label htmlFor="#pass">Password</label>
             <Form.Item
               className="password_signin"
               id="pass"
@@ -108,7 +108,7 @@ function SignIn() {
             </Form.Item>
 
             <Form.Item>
-              <a className="login-form-forgot forgot_pass" href="">
+              <a className="login-form-forgot forgot_pass" href="/">
                 Forgot password
               </a>
             </Form.Item>
@@ -124,7 +124,7 @@ function SignIn() {
           </Form>
         </Col>
       </Row>
-      <img src={image} className="image_signup"></img>
+      <img src={image} alt="circle2" className="image_signup"></img>
     </div>
   );
 }
