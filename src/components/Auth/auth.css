@@ -1,0 +1,71 @@
+.contain {
+  padding-top: 80px;
+  height: 100vh;
+}
+
+.form_sign {
+  margin-top: 100px;
+  width: 40%;
+  max-width: 40%;
+}
+
+.forgot_pass {
+  float: right;
+}
+
+.register_now {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.password_signin {
+  margin-bottom: 0 !important;
+}
+
+.signin_text > h1 {
+  font-size: 62.39px;
+  font-weight: 700;
+}
+
+.signin_text {
+  margin-left: 22px;
+}
+.signin_text > h4 {
+  /* font-family: Source Sans Pro; */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 42px;
+}
+
+.image_signin {
+  bottom: 0;
+  left: 0 !important;
+  padding: 0;
+  margin: 0 !important;
+  position: absolute;
+  z-index: -1;
+}
+
+/* ------------------------------------------------- */
+
+.containSignup {
+  margin-top: 48px;
+  height: 100vh;
+}
+
+.image_signup {
+  top: 0;
+  left: 0 !important;
+  padding: 0;
+  margin: 0 !important;
+  position: absolute;
+  z-index: -1;
+}
+
+.signup_text {
+  margin-left: 48px !important;
+}

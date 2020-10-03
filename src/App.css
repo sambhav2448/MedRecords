@@ -1,0 +1,29 @@
+body {
+  background: #f4f6f7;
+}
+
+.ant-btn-primary {
+  color: #fff;
+  background: #9254de;
+  border-color: #9254de;
+}
+
+.ant-btn-primary:hover {
+  color: #fff;
+  background: #9254dee0;
+  border-color: #9254de;
+}
+
+.ant-btn-primary:focus {
+  outline: #9254de;
+  border: #9254de;
+  box-shadow: #9254de;
+}
+
+a {
+  color: #9254de;
+}
+
+a:hover {
+  color: #9254de;
+}
